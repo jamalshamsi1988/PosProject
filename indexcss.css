@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+header{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: calc(100% - 6rem);
+  margin: 30px auto;
+
+}
+.backgraound{
+  display: grid;
+  grid-template-columns:repeat(1fr);
+   width: calc(100% - 5rem);
+  margin: 30px auto;
+}
+.menu-icon{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  
+}
+.login{
+  text-decoration: none;
+  padding: 0.8rem;
+  border: 2px solid gray;
+  color: black;
+  border-radius: 25px;
+  
+}
+.login i{
+  padding: 1rem;
+}
+.menu-buy {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
+  gap: 2rem;
+  width: calc(100% - 6rem);
+  margin: 30px auto;
+}
+.icon-top {
+  display: grid;
+  border: 2px solid black;
+}
+.spacial {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+  text-align: center;
+}
+.star {
+  color: gold;
+  padding: 1rem 0 0 0.3rem;
+}
+.off {
+  background-color: tomato;
+  color: white;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+figure {
+  display: grid;
+  justify-content: center;
+}
+figcaption {
+  direction: rtl;
+}
+.icon-buttom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.shop {
+  color: white;
+  background-color: green;
+  padding: 15px;
+  font-size: 1rem;
+  margin: auto;
+  border-radius: 50%;
+  transition: padding 1s linear;
+}
+.shop:after {
+  content: "خرید";
+  display: none;
+  font-size: 1rem;
+  text-align: end;
+  padding: 5px 0 0 20px;
+}
+.shop:hover {
+  padding-right: 25px;
+  border-radius: 25px;
+}
+
+.shop:hover:after {
+  display: inline;
+}
+
+.heart {
+  color: white;
+  background-color: green;
+  padding: 15px;
+  font-size: 1rem;
+  margin: auto;
+  border-radius: 50%;
+  transition: padding 1s ease-in-out;
+}
+.heart:after {
+  content: "موردعلاقه";
+  display: none;
+  padding: 5px 0 0 20px;
+  font-size: 1rem;
+  text-align: end;
+}
+.heart:hover {
+  padding-right: 25px;
+  border-radius: 25px;
+}
+.heart:hover:after {
+  display: inline;
+}
+footer{
+  display:grid;
+  grid-template-columns: 16rem 32rem;
+  justify-content: space-between;
+  
+}
+.footericon{
+  display: grid;
+text-align: center;
+}
+.spanicon{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(1rem,1fr));
+    gap: 2rem;
+    width: calc(100% - 6rem);
+    margin: 30px auto;
+    text-decoration: none;
+    
+    font-size: large;
+}
